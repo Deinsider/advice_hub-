@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Deinsider Advice Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; }
+    .container { max-width: 700px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 0 10px #ccc; }
+    h1 { color: #222; }
+    .intro { margin-bottom: 20px; }
+    .topics { margin-bottom: 30px; }
+    .topics ul { padding-left: 20px; }
+    form { display: flex; flex-direction: column; gap: 10px; }
+    label { font-weight: bold; }
+    input, textarea { padding: 8px; border: 1px solid #ccc; border-radius: 4px; }
+    button { background: #0077cc; color: #fff; padding: 10px; border: none; border-radius: 4px; cursor: pointer; }
+    button:hover { background: #005fa3; }
+    footer { margin-top: 30px; text-align: center; color: #888; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Collins's Advice Portfolio</h1>
+    <div class="intro">
+      <p>Hello! I’m Collins, and I offer advice on any issue—personal, professional, technical, or anything in between. If you need guidance, just reach out below!</p>
+    </div>
+    <div class="topics">
+      <h2>Common Advice Topics</h2>
+      <ul>
+        <li>Career & Education</li>
+        <li>Technology & Coding</li>
+        <li>Relationships & Communication</li>
+        <li>Life Challenges & Motivation</li>
+        <li>Project Feedback & Ideas</li>
+      </ul>
+    </div>
+    <h2>Get Advice</h2>
+    <form>
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="issue">Describe Your Issue:</label>
+      <textarea id="issue" name="issue" rows="4" required></textarea>
+
+      <button type="submit">Request Advice</button>
+    </form>
+    <footer>
+      &copy; 2025 collins &mdash; Advice for Any Issue
+    </footer>
+  </div>
+</body>
+</html>
